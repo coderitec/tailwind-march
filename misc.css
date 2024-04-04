@@ -1,0 +1,21 @@
+body{
+    --color-: rgb(237, 66, 9);
+}
+
+h1{
+    color: var(--color-);
+}
+
+p{
+    border-bottom: 10px solid var(--color-);
+}
+
+li{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-left: 5px solid var(--color-);
+}
+
+input::placeholder{
+    color: var(--color-);
+}
